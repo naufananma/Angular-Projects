@@ -7,13 +7,15 @@ import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { GitcompComponent } from './gitcomp/gitcomp.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    GitcompComponent
   ],
   imports: [
     BrowserModule,
